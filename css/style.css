@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #937DC2;
+    color: aliceblue;
+   
+}
+.title {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+    background-color: #937DC2;
+}
+.leftone{
+    margin-left: 10px;
+    
+}
+
+.name {
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 10px;
+   
+}
+.name2 {
+    font-weight: 600;
+    margin-left: 50px;
+ 
+   
+    
+    
+}
+.block {
+    background-color: rgb(255, 0, 0);
+    width: 40px;
+    height: 60px;
+    border: 1px solid rgb(250, 2, 2);
+    border-radius: 3px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.right {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 30px;
+    margin-left: 10px;
+}
+.blocks {
+    margin-left: 25px;
+    margin-left: 10px;   text-align: center;
+}
+.rightone1 {
+    width: 300px;margin-left: 10px;
+    height: auto;
+    background-color: #937DC2;
+    border-radius: 5px;
+    display: flex;border: 2px solid rgb(255, 0, 0);
+    margin-left: 100px;
+}
+.rightone2 {
+    width: 300px;margin-left: 10px;
+    height: auto;
+    background-color: #937DC2;
+    border-radius: 5px;
+    display: inline-flex;
+    margin-left: 100px;border: 2px solid rgb(255, 0, 0);
+}
+
+.row1 {
+    width: 300px;
+    height: auto;
+    background-color: #937DC2;margin-left: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;border: 2px solid rgb(255, 0, 0);
+}
+
+.row2 {
+    width: 300px;margin-left: 10px;
+    height: auto;
+    background-color: #937DC2;
+    border-radius: 5px;
+    display: flex;border: 2px solid rgb(255, 0, 0);
+    flex-direction: row-reverse;
+}
+
+.row3 {
+    width: 300px;margin-left: 10px;
+    height: auto;
+    background-color: #937DC2;
+    border-radius: 5px;
+    display: flex;border: 2px solid rgb(255, 0, 0);
+    flex-direction: column;
+}
+
+.row4 {
+    width: 300px;margin-left: 10px;
+    height: auto;
+    background-color: #937DC2;
+    border-radius: 5px;
+    display: flex;border: 2px solid rgb(255, 0, 0);
+    flex-direction: column-reverse;
+}
+.rightthree1 {
+    width: 300px;
+    height: auto;
+    background-color: #937DC2;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: nowrap;border: 2px solid rgb(255, 0, 0);
+}
+
+.rightthree2 {
+    width: 300px;
+    height: auto;
+    background-color: #937DC2;
+    border-radius: 5px;
+    display: flex;border: 2px solid rgb(255, 0, 0);
+    flex-wrap: wrap;
+}
+
+.rightthree3 {
+    width: 300px;
+    height: auto;
+    background-color: #937DC2;
+    border-radius: 5px;
+    display: flex;border: 2px solid rgb(255, 0, 0);
+    flex-wrap: wrap-reverse;
+}
+.forth1 {
+    width: 300px;
+    height: 100px;
+    background-color: #937DC2;
+    border-radius: 5px;
+    display: flex;border: 2px solid rgb(255, 0, 0);
+    align-items: stretch;
+}
+
+.forth7 {
+    width: 300px;
+    height: 100px;
+    background-color: #937DC2;
+    border-radius: 5px;
+    display: flex;border: 2px solid rgb(255, 0, 0);
+    align-items: flex-start;
+}
+
+.forth6 {
+    width: 300px;
+    height: 100px;
+    background-color: #937DC2;
+    border-radius: 5px;
+    display: flex;border: 2px solid rgb(255, 0, 0);
+    align-items: flex-end;
+}
+
+.forth4 {
+    width: 300px;
+    height: 100px;
+    background-color: #937DC2;
+    border-radius: 5px;
+    display: flex;border: 2px solid rgb(255, 0, 0);
+    align-items: center;
+}
+
+.forth5 {
+    width: 300px;
+    height: 90px;
+    background-color: #937DC2;
+    border-radius: 5px;
+    display: flex;border: 2px solid rgb(255, 0, 0);
+    align-items: baseline;
+}
+
+.forth1 {
+    background-color: #E8A0BF;
+    color: blue;
+    width: 13px;
+    height: 70px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 3px;
+    margin: 5px;
+}
+
+.forth2 {
+    background-color: #E8A0BF;
+    color: blue;
+    width: 60px;
+    height: 30px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 3px;
+    margin: 5px;
+}
+
+.forth3 {
+    background-color: #E8A0BF;
+    color: blue;
+    width: 15px;
+    height: 20px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 3px;
+    margin: 5px;
+}
+.fivth1 {
+    width: 100px;
+    height: 200px;
+    background-color: #E8A0BF;
+    color: blue;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+.fivth2 {
+    width: 100px;
+    height: 200px;
+    background-color: #E8A0BF;
+    color: blue;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.fivth3 {
+    width: 100px;
+    height: 200px;
+    background-color: #E8A0BF;
+    color: blue;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.fivth4 {
+    width: 100px;
+    height: 200px;
+    background-color: #E8A0BF;
+    color: blue;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.fivth5 {
+    width: 250px;
+    height: 150px;
+    background-color: #E8A0BF;
+    color: blue;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.fivth6 {
+    width: 100px;
+    height: 200px;
+    background-color: #E8A0BF;
+    color: blue;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.block1 {
+    background-color: #E8A0BF;
+    color: blue;
+    width: 40px;
+    height: 18px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 3px;
+    margin: 5px;
+    font-size: 10px;
+}
+
+.order {
+    width: 300px;
+    height: 100px;
+    background-color: #E8A0BF;
+    border: 2px solid rgb(255, 0, 0);
+    color: blue;
+    border-radius: 5px;
+    display: flex;
+    order: 0;
+}
+
+.block3 {
+    background-color: #E8A0BF;
+    color: blue;
+    width: 20px;
+    height: 30px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 3px;
+    margin: 5px;
+    flex-grow: 1;
+}
+
+.block4 {
+    background-color: #E8A0BF;
+    color: blue;
+    width: 20px;
+    height: 30px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 3px;
+    margin: 5px;
+    flex-grow: 3;
+}
+
+.flexshrink {
+    width: 200px;
+    height: 100px;
+    background-color: #E8A0BF;
+    color: blue;
+    border-radius: 5px;
+    display: flex;
+}
+
+.flexshrink1 {
+    background-color: #E8A0BF;
+    color: blue;
+    border: 2px solid rgb(255, 0, 0);
+    width: 40px;
+    height: 80px;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-shrink: 1;
+}
+
+.flexshrink2 {
+    background-color: #E8A0BF;
+    color: blue;
+    border: 2px solid rgb(255, 0, 0);
+    width: 40px;
+    height: 80px;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.flexflow {
+    width: 300px;
+    height: 100px;
+    border: 2px solid rgb(255, 0, 0);
+    background-color: #E8A0BF;
+    color: blue;
+    border-radius: 5px;
+    display: flex;
+    flex-grow: 1;
+}
+
+.flexbase {
+    background-color: #E8A0BF;
+    color: blue;
+    width: 300px;
+    height: 100px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbase1 {
+    background-color: #E8A0BF;
+    border: 2px solid rgb(255, 0, 0);
+    color: blue;
+    width: 30px;
+    height: 70px;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-basis: auto;
+}
+
+.flexbase2 {
+    background-color: #E8A0BF;
+    color: blue;
+    width: 20px;
+    height: 30px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 3px;
+    margin: 5px;
+    flex-basis: 240px;
+  
+}
+
+.alignself {
+    background-color: #E8A0BF;
+    color: blue;
+    width: 300px;
+    height: 100px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 5px;
+    display: flex;
+}
+
+.alignself1 {
+    background-color: #E8A0BF;
+    color: blue;
+    width: 20px;
+    height: 30px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 3px;
+    margin: 5px;
+    align-self: flex-start;
+}
+
+.alignself2 {
+    background-color: #E8A0BF;
+    color: blue;
+    width: 20px;
+    height: 30px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 3px;
+    margin: 5px;
+    align-self: flex-end;
+}
+::-webkit-scrollbar{
+    width: 30px;
+}
+::-webkit-scrollbar-track{
+    background-color: #FCC5C0;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #937DC2;
+}
+
+
